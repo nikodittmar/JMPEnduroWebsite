@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JMP Enduro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body>
+
+
+    <header>
+        <nav id="nav" class="navbar fixed-top navbar-scroll">
+            <a class="navbar-brand mx-auto" href="#">
+              <img src="FSMTBLogoWhite.png" width="180" id="FullSendLogo" id="FullSendLogo" alt="Full Send Mountain Biking Logo">
+            </a>
+        </nav>
+
+        <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+        <div class="overlay"></div>
+      
+        <!-- The HTML5 video element that will create the background video on the header -->
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="HeroBackground.mp4" type="video/mp4">
+        </video>
+      
+        <!-- The header content 
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <h1 class="display-3" id="RaceTitle">JOAQUIN MILLER PARK ENDURO 2022</h1>
+              <p class="lead mb-0">Registration Opening Soon</p>
+            </div>
+            
+          </div>
+          
+
+        </div>
+        
+        -->
+        <div class="container h-100">
+            <div class="w-100 text-white text-center" style="padding-top: 80px; margin-top: 30vh;">
+                <h1 class="display-3" id="RaceTitle">JOAQUIN MILLER PARK ENDURO 2022</h1>
+                <p class="lead mb-0">A Fundraiser For East Bay Bike Trails</p>
+            </div>
+            <div id="ScrollAnchor" class="w-100 text-center" style="margin-left: -50%; left: 50%; position: fixed; bottom: 0px; padding-bottom: 20px;" >
+                <!-- <button id="ScrollButton" style="all: unset; cursor: pointer;">
+                    <p id="ScrollAnchorText" style="color: white;">Scroll Down</p>
+                <svg  id="ScrollAnchorArrow" style="color: white;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                </svg>
+                </button> -->
+                <p id="ScrollAnchorText" style="color: white;">Scroll Down</p>
+                <!--
+                <svg  id="ScrollAnchorArrow" style="color: white;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                </svg> -->
+                <svg id="ScrollAnchorArrow" style="color: white;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+                </svg>
+            </div>
+        </div>
+
+      </header>
+      <!-- Page section example for content below the video header -->
+      <section id="ContentStart" class="my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h1>
+                    THE RACE
+                </h1>
+                <p>
+                Come join us on August 6, 2022 for a unique, one of a kind, race experience. 
+                The Joaquin Miller Park Enduro will be a one-day event with three stages that include the best of what the park has to offer. 
+                Registration is only $99 and by participating in this event, you will be supporting many organizations such as the Bicycle Trails Council of the East Bay, the Friends of Joaquin Miller Park, and the Friends of Sausal Creek. 
+                The race is limited to 100 riders so hurry up and register now before tickets sell out! 
+                </p>
+                <h1 class="SectionHeading">
+                    RACE INFO
+                </h1>
+                <p class="TextSubHeading">Registration Link:</p> 
+                <p>Registration for the Joaquin Miller Park Enduro will open soon.</p>
+                <p class="TextSubHeading">Date:</p> 
+                <p> August 6, 2022</p>
+                <p class="TextSubHeading">Location:</p> 
+                <p>Joaquin Miller Park, 3300 Joaquin Miller Rd, Oakland, CA 94602 
+                    <br>Google Maps Link: <a href="https://goo.gl/maps/FbgJZTF96rtjUBH76" target="_blank">https://goo.gl/maps/FbgJZTF96rtjUBH76</a>
+                </p>
+                <p class="TextSubHeading">Registration Fee:</p> 
+                <p>$100 - all race proceeds will be donated to the Bicycle Trails Council of the East Bay</p>
+                <p class="TextSubHeading">Categories:</p> 
+                <ul>
+                    <li>Expert Men</li>
+                    <li>Intermediate Men</li>
+                    <li>Beginner Men</li>
+                    <li>U18 Boys</li>
+                    <li>Women</li>
+                </ul>
+                <p class="TextSubHeading">Awards:</p> 
+                <p>
+                    There will be an awards ceremony at 2:00 PM when racing has finished. 
+                    The top three racers from each category will receive an award. 
+                    The ceremoney will be at the baywood grills at the meadow.
+                </p>
+                <p class="TextSubHeading">Riders Meeting:</p> 
+                <p>Racers are required to attend the riders meeting at 7:30 AM. 
+                    The riders meeting will be located at the meadow.
+                </p>
+                <p class="TextSubHeading">Packet Pickup:</p> 
+                <p>Race packets will be handed out at the riders meeting.</p>
+                <p class="TextSubHeading">Volunteering:</p> 
+                <p>To volunteer for the race, please fill out the volunteer sign up form: <a href="https://forms.gle/ipEac6vSGojk454w7" target="_blank">https://forms.gle/ipEac6vSGojk454w7</a></p>
+                <p class="TextSubHeading">Food:</p> 
+                <p>There will be food trucks at the event.</p>
+                <p class="TextSubHeading">Cancellation Policy:</p> 
+                <p>Unfortunately, we do not offer refunds on event registrations.</p>
+                <p class="TextSubHeading">Race Updates:</p> 
+                <p>Please follow @fullsendmtbracing on instagram for race updates.</p>
+                <h1 class="SectionHeading">
+                    THE COURSE
+                </h1>
+                <p>
+                    The Joaquin Miller Park Enduro will include three timed three stages: Cinderella Trail, Chaparral Trail, and Castle Park Trail. 
+                    Between each stage is a 3 mile climb with 500 feet of elevation gain. 
+                    Pre-riding the course is strongly reccomended. 
+                    Videos of each trail are linked below:
+                </p>
+                <p class="TextSubHeading">Stage 1: Cinderella Trail (Blue Difficulty)</p>
+                <p><a href="https://www.youtube.com/watch?v=ronv9Kx64BE" target="_blank">https://www.youtube.com/watch?v=ronv9Kx64BE</a></p>
+                <p class="TextSubHeading">Stage 2: Chaparral Trail (Black Difficulty)</p>
+                <p><a href="https://www.youtube.com/watch?v=zsvp-kSk-1Y" target="_blank">https://www.youtube.com/watch?v=zsvp-kSk-1Y</a></p>
+                <p class="TextSubHeading">Stage 3: Castle Park (Blue Difficulty)</p>
+                <p>
+                    <a href="https://www.youtube.com/watch?v=_MIRP7b-MLg" target="_blank">https://www.youtube.com/watch?v=_MIRP7b-MLg</a><br>
+                    Note: Watch from 0:22 to 2:31 to see part of the course. Unfortunately there is no video of the beginning of the course.
+                    
+                </p>
+                <p class="Bold">Course Map:</p>
+                <iframe src="https://ridewithgps.com/embeds?type=event&eventId=179771&title=Joaquin%20Miller%20Park%20Enduro&description=August%206%2C%202022&sampleGraph=true&defaultShowAll=true" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
+                <h1 class="SectionHeading">
+                    EVENT SPONSORS
+                </h1>
+                <p>Thank you to our event sponsors for helping bring the Joqauin Miller Park Enduro to reality. If you are interested in sponsoring this event, please email nikodittmar@gmail.com.</p>
+                <img src="TrailOne.webp" width="100px">
+                <img src="WTB.webp" width="100px">
+
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+  <script src="app.js"></script>
+</html>
