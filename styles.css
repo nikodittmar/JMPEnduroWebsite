@@ -47,6 +47,12 @@ h1 {
     font-weight: 600 !important;
     margin-bottom: 0px !important; 
 }
+
+.SponsorSection {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .Bold {
     font-weight: 600 !important;
 }
