@@ -6,6 +6,48 @@ body {
     background: rgb(5, 155, 155) !important; 
 }
 
+.JMPButton {
+    /* background-color: #f70;
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 6px;
+    */
+
+    background: #f2f2f2;
+    background: hsl(28, 100%, 90%);
+    background: #f70;
+   
+
+    border: 1px solid #bbb;
+    border: 1px solid hsla(28, 100%, 80%, 1);
+    
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.JMPButtonText {
+    border: none;
+    background: none;
+    color: #48484c;
+    color: whitesmoke;
+
+}
+
+.JMPButton:hover {
+    background-color: #fff;
+    background-color: hsla(28, 100%, 80%, 1);
+    background-color: rgb(255, 151, 60);
+
+    transition: 0.1s ease-in-out;
+}
+
+
+
 #nav { 
     transition: all .2s ease-in-out; 
 }
